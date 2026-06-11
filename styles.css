@@ -96,3 +96,60 @@ button{
 button:hover{
     background:#0d6efd;
 }
+
+
+/* Featured Products */
+
+.featured-products{
+    background:#1f1f1f;
+    color:white;
+    padding:5rem 8%;
+}
+
+.featured-header{
+    text-align:center;
+    margin-bottom:3rem;
+}
+
+.featured-header h2{
+    font-size:2.5rem;
+    margin-bottom:1rem;
+}
+
+.featured-header p{
+    max-width:700px;
+    margin:auto;
+    color:#cfcfcf;
+}
+
+.featured-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:2rem;
+}
+
+.featured-card{
+    background:#2b2b2b;
+    padding:1.5rem;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.featured-card:hover{
+    transform:translateY(-8px);
+}
+
+.featured-image{
+    height:250px;
+    background:#d9d9d9;
+    border-radius:10px;
+    margin-bottom:1rem;
+}
+
+.featured-card h3{
+    margin-bottom:0.5rem;
+}
+
+.featured-card p{
+    color:#cfcfcf;
+}
