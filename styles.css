@@ -219,13 +219,23 @@ button:hover{
 }
 
 .showcase-image{
-    height:350px;
+    height:300px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
     background:#d9d9d9;
 
     border-radius:10px;
 
     margin-bottom:1.5rem;
+}
+
+.showcase-image img{
+    width:250px;
+    height:auto;
+    object-fit:contain;
 }
 
 .showcase-small{
