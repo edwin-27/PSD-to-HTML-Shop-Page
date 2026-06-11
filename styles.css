@@ -194,3 +194,64 @@ button:hover{
 
     font-size:1rem;
 }
+
+/* Showcase */
+
+.showcase{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+
+    gap:2rem;
+
+    padding:5rem 8%;
+
+    background:#f8f9fa;
+}
+
+.showcase-large{
+    background:white;
+
+    padding:2rem;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.showcase-image{
+    height:350px;
+
+    background:#d9d9d9;
+
+    border-radius:10px;
+
+    margin-bottom:1.5rem;
+}
+
+.showcase-small{
+    display:flex;
+
+    flex-direction:column;
+
+    gap:2rem;
+}
+
+.small-card{
+    background:white;
+
+    padding:1.5rem;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.small-image{
+    height:150px;
+
+    background:#d9d9d9;
+
+    border-radius:10px;
+
+    margin-bottom:1rem;
+}
